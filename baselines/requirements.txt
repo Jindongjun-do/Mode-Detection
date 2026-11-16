@@ -1,0 +1,5 @@
+# Extra packages for the comparison models (in addition to ../requirements.txt)
+geopy              # CNN instance creation (geodesic distance)
+tsfel==0.1.5       # DeepViT features, version pinned by the official code
+vit-pytorch        # DeepViT model (archs/vit.py of the official code)
+shapely            # imported by the official DeepViT feature generator

@@ -1,0 +1,7 @@
+# Proposed model (tested with Python 3.12, CUDA 12.6)
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15
+scikit-learn>=1.4
+torch>=2.3
+torch_geometric>=2.5

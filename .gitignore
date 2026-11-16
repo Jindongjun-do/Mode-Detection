@@ -1,0 +1,10 @@
+# data and results are not versioned
+data/raw/
+data/processed/
+outputs/
+# official code of the comparison models is cloned locally (see baselines/*/README.md)
+baselines/*/official/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
