@@ -87,8 +87,6 @@ scores, and the confusion matrix.
 A new segment starts whenever the stop flag changes. Then:
 - `merge_short`: a segment with fewer than 3 points or shorter than 5 s is merged into the preceding
   segment.
-- `merge_short_split_long`: moving segments are first cut into pieces of at least 3 points each time
-  a piece reaches 180 s or 500 m; then `merge_short`.
 
 The stop-segment indicator is 1 when at least half of a segment's points are stationary.
 
